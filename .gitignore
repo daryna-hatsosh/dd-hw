@@ -1,0 +1,22 @@
+# Ignore Python byte code files
+__pycache__/
+*.pyc
+
+# Ignore Python virtual environments
+venv/
+env/
+
+# Ignore logs and other generated files
+logs/
+*.log
+
+# Ignore Docker Compose files
+docker-compose.yml
+docker-compose.override.yml
+
+# Ignore PostgreSQL data files
+data/
+pgdata/
+
+# Ignore VS Code files
+.vscode/
